@@ -1,0 +1,918 @@
+body {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+}
+
+.headerClass {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.mainLeftBox {
+    display: flex;
+    align-items: center;
+}
+
+.logoTop {
+    width: 70px;
+    padding: 2rem;
+
+}
+
+.gameNow_btn {
+    background-color: rgb(255, 145, 0);
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.gameNow_btn:hover {
+    background-color: rgba(255, 145, 0, 0.313);
+    transition: 300ms;
+}
+
+
+
+.mainRightBox {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.gameListOpenText {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.infoMain {
+    padding: 1rem;
+    text-decoration: none;
+    color: rgba(216, 216, 216, 0.738);
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+
+
+
+.infoMain:hover {
+    font-size: 20px;
+    color: white;
+    transition: 300ms;
+}
+
+
+
+
+
+
+.infoMain3 {
+    padding: 1rem;
+    text-decoration: none;
+    color: rgba(216, 216, 216, 0.738);
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+
+
+
+.infoMain3:hover {
+    font-size: 20px;
+    color: rgb(239, 139, 26);
+    transition: 300ms;
+}
+
+
+
+
+
+
+
+.gameListOpen {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+
+.gameListOpen:hover {
+    font-size: 15px;
+}
+
+.options-container {
+    display: none;/
+}
+
+.expandable-text {
+    cursor: pointer;
+
+
+    padding: 1rem;
+    text-decoration: none;
+    color: rgba(216, 216, 216, 0.738);
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+}
+
+.expandable-text:hover {
+    font-size: 20px;
+    color: white;
+    transition: 300ms;
+
+}
+
+
+/* body {
+    margin: 0;
+    overflow: hidden;
+} */
+
+.videoBackground {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.blackCover {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+.titleBox {
+    margin: auto;
+    text-align: center;
+
+}
+
+.textBoxTitle {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.title {
+    padding-top: 3rem;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+h2 {
+    padding-top: 0.2rem;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+h3 {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+
+h4 {
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+
+
+
+
+.contentBox {
+    display: flex;
+    width: 90%;
+    background-color: rgba(53, 52, 52, 0.328);
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+
+
+.img01 {
+    width: 20%;
+
+}
+
+.textInBox {
+    width: 100%;
+    text-align: left;
+    padding-right: 1rem;
+    font-size: 1.3rem;
+    margin: auto;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.3rem;
+}
+
+
+
+.gameNow_btn {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(153deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+.gameNow_btn:hover {
+    transition: 300ms;
+    opacity: 70%;
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.3rem;
+}
+
+
+.acessNow_btn {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(153deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.acessNow_btn:hover {
+    opacity: 50%;
+    transition: 300ms;
+}
+
+.spaceJogabilidade {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.paddingH3 {
+    margin-top: 6rem;
+}
+
+
+
+.videoJogabilidade {
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    position: relative;
+    z-index: -2;
+}
+
+.textTeste {
+
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    text-align: center;
+
+    font-size: 1.4rem;
+}
+
+.textTeste1 {
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+.gameTitle {
+    font-size: 1.7rem;
+    color: rgb(255, 145, 0);
+    padding-bottom: 0.25rem;
+}
+
+
+.footerR {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem;
+
+}
+
+.redes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.formContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemForm {
+    width: 10rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.form {
+    background-color: rgb(45, 45, 45);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+ANDROID */
+
+
+
+
+
+
+
+
+
+@media(min-width: 300px) {
+
+    .logoTop {
+        width: 25%;
+        padding: 0.6rem;
+    }
+
+
+    .logoDown .logoTop {
+        width: 50%;
+        padding: 1rem;
+    }
+
+
+
+    .mainRightBox {
+        display: none;
+
+
+    }
+
+
+    .expanded {
+        display: flex;
+        padding: 0px;
+        flex-direction: column;
+    }
+
+
+    .title {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+
+
+    .spaceJogabilidade {
+        width: 280px;
+    }
+
+    .videoBackground {
+        height: 47%;
+    }
+
+    .textTeste2 {
+        font-size: 0px;
+    }
+
+    .paddingH3 {
+        margin: auto;
+        margin-top: 3rem;
+
+
+
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+    .textTeste1 {
+        font-size: 1.6rem;
+        margin: auto;
+        padding: 0.5rem;
+        margin-top: 2rem;
+
+
+
+    }
+
+
+    .textInBox span {
+        font-size: 0.4rem;
+    }
+
+
+
+
+
+    .acessNow_btn {
+        font-size: 0.4rem;
+        margin: 5px;
+        padding: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    body {
+        font-size: 14px;
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
+    }
+
+
+
+
+
+    .buttonExpand {
+        width: 100px;
+        height: 50px;
+        background-color: black;
+
+
+        cursor: pointer;
+        padding: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem;
+
+    }
+
+    .buttonExpand:hover {
+        background-color: rgb(94, 53, 0);
+        transition: 300ms;
+    }
+
+    .buttonExpand:active {
+        background-color: rgb(148, 105, 50);
+        transition: 100ms;
+    }
+
+
+
+
+    .headerClass section {
+        display: flex;
+        align-items: center;
+    }
+
+    .headerClass {
+        flex-direction: column;
+    }
+
+    .buttonExpand span {
+        background-color: rgb(255, 145, 0);
+        display: flex;
+        height: 5px;
+        width: 40px;
+        align-items: center;
+
+        margin: auto;
+
+    }
+
+    .infoMain {
+        font-size: 1rem;
+    }
+
+    .gameNow_btn {
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+
+    .form {
+        flex-wrap: wrap;
+    }
+
+    .formContact {
+        flex-wrap: wrap;
+    }
+
+    .formAlign {
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+    .gameNow_btn {
+        margin: 0.1rem;
+    }
+}
+
+
+
+
+
+@media(min-width: 500px) {
+
+
+
+    .logoTop {
+        width: 70px;
+        padding: 2rem;
+    }
+
+    .gameNow_btn {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .spaceJogabilidade {
+        width: 400px;
+    }
+
+    .videoBackground {
+        height: 52%;
+    }
+
+    .textTeste1 {
+        font-size: 1.6rem;
+        margin: auto;
+        padding: 0.5rem;
+        margin-top: 2rem;
+
+
+
+    }
+
+    .textTeste2 {
+        font-size: 0.8rem;
+    }
+
+
+
+    .paddingH3 {
+
+        margin: auto;
+        margin-top: 3rem;
+
+
+
+        text-align: center;
+
+
+
+
+    }
+
+
+    body {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .subtitle {
+        font-size: 1.3rem;
+    }
+
+
+    .textInBox span {
+        font-size: 0.6rem;
+    }
+
+    .acessNow_btn {
+        font-size: 0.7rem;
+        
+    }
+
+    .buttonExpand {
+        width: 100px;
+        height: 50px;
+        background-color: black;
+
+
+        cursor: pointer;
+        padding: 0.4rem;
+        display: flex;
+        flex-direction: column;
+        margin: 1rem;
+    }
+
+    .buttonExpand:hover {
+        background-color: rgb(94, 53, 0);
+        transition: 300ms;
+    }
+
+    .buttonExpand:active {
+        background-color: rgb(148, 105, 50);
+        transition: 100ms;
+    }
+
+
+    .mainRightBox {
+        display: none;
+
+    }
+
+
+    .expanded {
+        display: flex;
+        padding: 0px;
+        flex-direction: row;
+    }
+
+    .headerClass section {
+        display: flex;
+        align-items: center;
+    }
+
+    .headerClass {
+        flex-direction: column;
+    }
+
+    .buttonExpand span {
+        background-color: rgb(255, 145, 0);
+        display: flex;
+        height: 5px;
+        width: 40px;
+        align-items: center;
+
+        margin: auto;
+
+    }
+
+    .infoMain {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+
+
+@media(min-width: 700px) {
+    .spaceJogabilidade {
+        width: 600px;
+    }
+
+    .videoBackground {
+        height: 58%;
+    }
+
+    .textTeste1 {
+        font-size: 2rem;
+    }
+
+    .textTeste2 {
+        font-size: 1rem;
+    }
+
+    .paddingH3 {
+        margin-top: 4.5rem;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+
+    .textInBox span {
+        font-size: 0.8rem;
+    }
+
+    .acessNow_btn {
+        font-size: 1rem;
+        padding: 2rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
+
+
+
+
+    .buttonExpand {
+        width: 0px;
+        height: 0px;
+        display: none;
+    }
+
+
+
+    .mainRightBox {
+        display: flex;
+    }
+
+
+
+    .headerClass section {
+        display: flex;
+        align-items: center;
+    }
+
+    .headerClass {
+        flex-direction: row;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media(min-width: 800px) {
+
+    .textInBox span {
+        font-size: 1rem;
+    }
+
+    .paddingH3 {
+        margin-top: 5rem;
+    }
+
+}
+
+
+
+
+@media(min-width: 1000px) {
+    .spaceJogabilidade {
+        width: 1000px;
+    }
+
+    .videoBackground {
+        height: 72%;
+    }
+
+    .paddingH3 {
+        margin-top: 4.5rem;
+    }
+}
+
+
+
+
+@media(min-width: 1400px) {
+
+    body {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .spaceJogabilidade {
+        width: 1300px;
+    }
+
+    .videoBackground {
+        height: 83%;
+    }
+
+    .paddingH3 {
+        margin-top: 5rem;
+    }
+}
+
+
+
+
+
+
+@media(min-width: 1800px) {
+    .spaceJogabilidade {
+        width: 1500px;
+    }
+
+    .videoBackground {
+        height: 90%;
+    }
+
+}
+
+@media(min-width: 2200px) {
+    .spaceJogabilidade {
+        width: 2000px;
+
+    }
+
+    .videoBackground {
+        height: 88%;
+    }
+
+
+}

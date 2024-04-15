@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SrVertex | Jogos</title>
+    <link rel="shortcut icon" type="image/x-icon" href="..//img/icon.png">
+    <link rel="stylesheet" href="..//css/reset.css">
+    <link rel="stylesheet" href="..//css/style.css">
+    <link rel="stylesheet" href="..//css/game01.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="headerClass">
+        <section>
+            <div class="mainLeftBox">
+                <img class="logoTop" src="..//img/icon.png" alt="Logo site de jogos">
+                <a class="gameNow_btn" href="..//html/game01.html">Jogue Gratuitamente</a>
+            </div>
+            <div class="buttonExpand" id="buttonExpand" onclick="toggleNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+
+        <nav class="mainRightBox" id="mainRightBox">
+            <a class="infoMain" href="..//index.html">Inicio</a></li>
+            <div class="options-container">
+                <ul>
+                    <li><a class="infoMain" href="..//html/game01.html">Jogo da Musica</a></li>
+                    <li><a class="infoMain"></a></li>
+                    <li><a class="infoMain" href="..//html/game02.html">Jogo do Bloco</a></li>
+                </ul>
+            </div>
+            <a class="infoMain" href="..//html/game01.html">JOGOS</a>
+            <a href="#contato" class="infoMain">Contato</a>
+            <a href="..//html/quemSomos.html" class="infoMain">Sobre</a>
+        </nav>
+    </header>
+
+    <section>
+        <video autoplay loop muted class="videoBackground">
+            <source src="..//img/fsVideo.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <main>
+        <section class="textBoxTitle">
+            <div class="titleBox">
+                <h1 class="title">Rocket On The Rocks</h1>
+                <h2 class="subtitle">Faça parte da companhia espacial</h2>
+            </div>
+        </section>
+
+        <section>
+            <div class="espaco"></div>
+            <h4 class="fichaTitle">Game Sinopse</h4>
+            <p class="gameDescription">O jogador é recem contratado para fazer parte da companhia espacial. A companhia esta sempre a busca de jovens aventureiros que estao a busca de novos desafios e jornadas agitadas. 
+                Em sua primeira aventura, voce é levado a investigar uma area sombria no meio de um cinturão de asteroides. Segundo os relatos, muitas naves foram enviadas, mas nao tiveram retornos, e cabe a voce investigar. 
+                Apos coletar algumas estrelas, o jogador consegue avancar alem das rochas. Em seu radio a ultima captura registrada é...</p>
+        </section>
+
+        <div class="carousel-container">
+            <button class="next" onclick="nextImage()"><img class="seta" src="..//img/seta.png" alt="Anterior"></button>
+            <div class="carousel">
+                <img src="..//img/screen03.png" alt="Imagem 1">
+                <img src="..//img/screen06.png" alt="Imagem 2">
+                <img src="..//img/screen09.png" alt="Imagem 3">
+            </div>
+            <button class="prev" onclick="prevImage()"><img class="seta2" src="..//img/seta.png" alt="Avançar"></button>
+        </div>
+
+        <section class="areaJogar">
+            <h2 class="fichaTitle">Jogar</h2>
+            <div class="btngame">
+                <span id="game_btn2" class="game_btn" onclick="toggleGame()">Jogar</span>
+            </div>
+            <div class="gameBox" >
+                <iframe class="gameNone" id="gameBox2" src="game01/index.html" width="500" height="200"></iframe>
+            </div>
+            <div class="btngame">
+                <a href="game01/index.html" id="gameCheia_btn" class="game_btn">Jogar em tela Cheia</a>
+            </div>
+        </section>
+
+        <section>
+            <div class="space"></div>
+            <section>
+                <h2 class="fichaTitle">Ficha Técnica</h2>
+                <div class="fichaTecnica">
+                    <ul class="listaTecnica">
+                        <li><strong>Nome</strong></li>
+                        <li>Engine</li>
+                        <li>Versão</li>
+                        <li>Plataforma</li>
+                        <li>Mecânica</li>
+                        <li>Dispositivos de Entrada</li>
+                    </ul>
+                    <ul class="listaTecnica">
+                        <li><strong>Rocket On The Rocks</strong></li>
+                        <li>Construct 3</li>
+                        <li>v1.2</li>
+                        <li>PC</li>
+                        <li>Plataforma</li>
+                        <li>Mouse, Teclado</li>
+                    </ul>
+                </div>
+                <div class="space"></div>
+            </section>
+
+            <section>
+                <h2 class="gameTitle">Trilha Sonora</h2>
+                <div class="fichaTecnica">
+                    <ul class="listaTecnica">
+                        <li>8 Sci-Fi Style Tracks For Your Game!</li>
+                        <li>Warped Shooting Fx</li>
+                        <li>50 sound Fx for Your Game</li>
+                        <li>Dreamy Space Soundtrack</li>
+                        <li>FREE| Abrar's Cosmic Music Pack 1</li>
+                        <li>Pokémon UI Select/Enter</li>
+                        <li>Sharp Explosion Weird_Natural_reverb</li>
+                        <li>Explosion 12</li>
+                        <li>Explosion08 wav</li>
+                        <li>Explosion 1 wav</li>
+                        <li>Explosion_002 mp3</li>
+                        <li>Explosion 2 wav</li>
+                        <li>LevelUp.wav</li>
+                    </ul>
+                    <ul class="listaTecnica">
+                        <li><a class="infoMain3" href="https://alkakrab.itch.io/free-sci-fi-game-music-pack">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://ansimuz.itch.io/warped-shooting-fx">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://fallenblood.itch.io/50-sfx">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://chiphead64.itch.io/dreamy-space-soundtrack">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://abrqqx.itch.io/cosmic">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://freesound.org/people/plasterbrain/sounds/608432/">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://freesound.org/people/Rudmer_Rotteveel/sounds/336009/">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://freesound.org/people/LiamG_SFX/sounds/322494/">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://freesound.org/people/V-ktor/sounds/434427/">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://freesound.org/people/jobro/sounds/35458/">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://freesound.org/people/cydon/sounds/268556/">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://freesound.org/people/Deganoth/sounds/165910/">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://freesound.org/people/Kenneth_Cooney/sounds/609335/">Creditos</a></li>
+                    </ul>
+                </div>
+                <div class="space"></div>
+            </section>
+    
+            <section>
+                <h2 class="gameTitle">Elementos</h2>
+                <div class="fichaTecnica">
+                    <ul class="listaTecnica">
+                        <li>FREE SPACE SHOOTER GAME OBJECTS</li>
+                        <li>FREE SCI-FI ICONS – SPACE OBJECTS</li>
+                        <li>FREE SPACE SHOOTER GAME GUI</li>
+                        <li>FREE PIXEL ART ENEMY SPACESHIP 2D SPRITES</li>
+                        <li>FREE PIXEL ART SCI-FI ICON PACK</li>
+                        <li>Space Background</li>
+                        <li>Warped Vehicles</li>
+                        <li>Space Backgrounds</li>
+                    </ul>
+                    <ul class="listaTecnica">
+                        <li><a class="infoMain3" href="https://craftpix.net/freebies/free-space-shooter-game-objects/?num=2&count=75&sq=space&pos=7">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://craftpix.net/freebies/free-sci-fi-icons-space-objects/?num=1&count=75&sq=space&pos=7">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://craftpix.net/freebies/free-space-shooter-game-gui/?num=3&count=75&sq=space&pos=11">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://craftpix.net/freebies/free-pixel-art-enemy-spaceship-2d-sprites/?num=4&count=75&sq=space&pos=7">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://craftpix.net/freebies/free-pixel-art-sci-fi-icons-pack/?num=4&count=75&sq=space&pos=11">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://www.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_12448591.htm#fromView=search&page=1&position=1&uuid=fc21ea59-c8e0-4247-a431-510834735c03">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://ansimuz.itch.io/warped-vehicles">Creditos</a></li>
+                        <li><a class="infoMain3" href="https://ansimuz.itch.io/space-background">Creditos</a></li>
+                    </ul>
+                </div>
+                <div class="space"></div>
+            </section>
+    
+            <section>
+                <h2 class="gameTitle">Regras do Jogo</h2>
+                <div class="gameDescription">
+                    <span>Coletar Estrelas para avancar de fase. Desviar de meteoros, usar powerUps de velocidade, coletavies de vida, atirar projeteis, criar estrategias.</span>
+                </div>
+                <div class="space"></div>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <section class="form">
+            <h4>Entre em Contato</h4>
+            <form class="formContact">
+                <div class="formAlign">
+                  <input class="itemForm" type="text" id="nome" placeholder="Nome" title="Nome">
+                  <input class="itemForm" type="email" id="email" placeholder="Email" title="Email">
+                  <input class="itemForm" type="text" id="assunto" placeholder="Assunto" title="Assunto">
+                </div>
+                <div class="formAlign">
+                  <textarea class="itemForm" id="mensagem" name="mensagem" placeholder="Sua mensagem"></textarea>
+                </div>
+                <div class="formAlign">
+                  <button class="gameNow_btn" title="Enviar">Enviar mensagem</button>
+                </div>
+            </form>
+        </section>
+        <div class="footerR">
+            <p class="">© 2024 SrVertex, Inc</p>
+            <a href="#contato" class="logoDown" id="contato">
+                <img class="logoTop" src="..//img/icon.png" id="logoDown" alt="Logo SrVertex">
+            </a>
+            <ul class="redes">
+                <li><a href="https://www.facebook.com/Sr.Vertex" class="infoMain">Facebook</a></li>
+                <li><a href="https://www.instagram.com/sr_vertex/" class="infoMain">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/leonardo-nunes-decaris/" class="infoMain">LinkedIn</a></li>
+                <li><a href="https://github.com/SrVertex" class="infoMain">Github</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="..//js/scriptNav.js"></script>
+    <script src="..//js/carrousel.js"></script>
+    <script src="..//js/abrirGame.js"></script>
+</body>
+</html>

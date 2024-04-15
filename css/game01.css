@@ -1,0 +1,285 @@
+
+.gameTitle{
+    padding: 1rem;
+    margin: 0px;
+    text-align: center;
+}
+
+.gameTitle1{
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+.carousel-container {
+    position: relative;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    margin: 0, 2rem, 0, 2rem;
+    background-color: black;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.prev {
+    position: absolute;
+
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    margin-right: 10px;
+}
+
+.next {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 10px;
+}
+
+.seta{
+    width: 20px;
+    transform: rotate(180deg);
+}
+
+.seta2{
+    width: 20px;
+}
+
+.areaJogar{
+    display: flex;
+    flex-direction: column;
+}
+
+.btngame{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.btngameNop{
+    display: none;
+}
+
+.game_btn {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(153deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 300ms;
+}
+
+.game_btn:hover {
+    transition: 300ms;
+    opacity: 70%;
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+
+
+.gameBox{
+    display: flex;
+
+    margin: auto;
+}
+
+.gameNone{
+    display: none;
+}
+
+
+
+
+
+.gameDescription1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.gameDescription{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.gameScreenshots_Box{
+    padding: 1rem;
+    display: flex;
+    background-color: rgb(53, 53, 53);
+}
+
+.gameScreenshots{
+    padding: 0.2rem;
+    width: 30%;
+    flex: auto;
+
+}
+
+
+.fichaTecnica{
+    display: flex;
+    
+}
+
+.fichaTitle{
+    padding: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.listaTecnica{
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    align-items: space-around;
+    padding: 1rem;
+    margin: 0px;
+    text-align: center;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+.space{
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: rgb(53, 53, 53);
+}
+
+.footerTitle{
+    color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.espaco{
+    margin-top: 18rem;
+}
+.quemSomos{
+    display: flex;
+    justify-content: space-around;
+    margin: auto 1rem;
+    text-align: center;
+    background-color: rgb(46, 46, 46);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.quemSomos2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    text-align: center;
+}
+.srVertex {
+    font-size: 1.7rem;
+    color: rgb(255, 145, 0);
+    padding-bottom: 0.25rem;
+}
+
+.logoTop2{
+    width: 30%;
+    height: 30%;
+}
+
+
+
+@media(min-width: 300px) {
+.espaco{
+    margin-top: 7rem;
+}
+
+.jogo{
+    width: 250px;
+    height: 100px;
+}
+
+
+}
+
+
+@media(min-width: 400px) {
+    .espaco{
+        margin-top: 10rem;
+    }
+
+}
+
+@media(min-width: 500px) {
+    .espaco{
+        margin-top: 12rem;
+    }
+    
+    .listaTecnica{
+        text-align: left;
+    }
+    
+    .gameDescription{
+        text-align: left;
+    }
+    .jogo{
+        width: 500px;
+        height: 200px;
+    }
+    }
+
+
+@media(min-width: 700px) {
+    .espaco{
+        margin-top: 18rem;
+    }
+
+}
+
+
+@media(min-width: 1000px) {
+    .espaco{
+        margin-top: 18rem;
+    }
+    .jogo{
+        width: 1000px;
+        height: 400px;
+    }
+}
