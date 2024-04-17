@@ -22,7 +22,6 @@ body {
 .logoTop {
     width: 70px;
     padding: 2rem;
-
 }
 
 .gameNow_btn {
@@ -41,8 +40,6 @@ body {
     background-color: rgba(255, 145, 0, 0.313);
     transition: 300ms;
 }
-
-
 
 .mainRightBox {
     display: flex;
@@ -70,19 +67,11 @@ body {
     transition: 300ms;
 }
 
-
-
-
 .infoMain:hover {
     font-size: 20px;
     color: white;
     transition: 300ms;
 }
-
-
-
-
-
 
 .infoMain3 {
     padding: 1rem;
@@ -94,29 +83,16 @@ body {
     transition: 300ms;
 }
 
-
-
-
 .infoMain3:hover {
     font-size: 20px;
     color: rgb(239, 139, 26);
     transition: 300ms;
 }
 
-
-
-
-
-
-
 .gameListOpen {
     display: flex;
     flex-direction: column;
-
 }
-
-
-
 
 .gameListOpen:hover {
     font-size: 15px;
@@ -128,30 +104,19 @@ body {
 
 .expandable-text {
     cursor: pointer;
-
-
     padding: 1rem;
     text-decoration: none;
     color: rgba(216, 216, 216, 0.738);
     font-family: "Kanit", sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-
-
 }
 
 .expandable-text:hover {
     font-size: 20px;
     color: white;
     transition: 300ms;
-
 }
-
-
-/* body {
-    margin: 0;
-    overflow: hidden;
-} */
 
 .videoBackground {
     width: 100%;
@@ -173,19 +138,15 @@ body {
     z-index: -1;
 }
 
-
-
 .titleBox {
     margin: auto;
     text-align: center;
-
 }
 
 .textBoxTitle {
     display: flex;
     flex-direction: row;
 }
-
 
 .title {
     padding-top: 3rem;
@@ -211,11 +172,9 @@ h3 {
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.8rem;
-
     margin-top: 3rem;
     margin-left: 5rem;
 }
-
 
 h4 {
     color: white;
@@ -227,9 +186,6 @@ h4 {
     padding-bottom: 0;
 }
 
-
-
-
 .contentBox {
     display: flex;
     width: 90%;
@@ -240,11 +196,8 @@ h4 {
     justify-content: space-between;
 }
 
-
-
 .img01 {
     width: 20%;
-
 }
 
 .textInBox {
@@ -258,8 +211,6 @@ h4 {
     flex-direction: column;
     margin-left: 1.3rem;
 }
-
-
 
 .gameNow_btn {
     background: rgb(2, 0, 36);
@@ -284,7 +235,6 @@ h4 {
     text-decoration: none;
     padding: 1.3rem;
 }
-
 
 .acessNow_btn {
     background: rgb(2, 0, 36);
@@ -315,12 +265,9 @@ h4 {
     justify-content: center;
 }
 
-
 .paddingH3 {
     margin-top: 6rem;
 }
-
-
 
 .videoJogabilidade {
     padding-top: 2rem;
@@ -341,7 +288,6 @@ h4 {
     justify-content: center;
     width: 70%;
     text-align: center;
-
     font-size: 1.4rem;
 }
 
@@ -356,13 +302,11 @@ h4 {
     padding-bottom: 0.25rem;
 }
 
-
 .footerR {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 2rem;
-
 }
 
 .redes {
@@ -390,38 +334,22 @@ h4 {
     flex-direction: column;
 }
 
-/* 
-ANDROID */
-
-
-
-
-
-
-
-
+/* ANDROID */
 
 @media(min-width: 300px) {
-
     .logoTop {
         width: 25%;
         padding: 0.6rem;
     }
-
 
     .logoDown .logoTop {
         width: 50%;
         padding: 1rem;
     }
 
-
-
     .mainRightBox {
         display: none;
-
-
     }
-
 
     .expanded {
         display: flex;
@@ -429,13 +357,10 @@ ANDROID */
         flex-direction: column;
     }
 
-
     .title {
         font-size: 3rem;
         padding: 1rem;
     }
-
-
 
     .spaceJogabilidade {
         width: 280px;
@@ -452,28 +377,14 @@ ANDROID */
     .paddingH3 {
         margin: auto;
         margin-top: 3rem;
-
-
-
         text-align: center;
     }
-
-
-
-
-
-
-
-
 
     .textTeste1 {
         font-size: 1.6rem;
         margin: auto;
         padding: 0.5rem;
         margin-top: 2rem;
-
-
-
     }
 
 
@@ -481,30 +392,11 @@ ANDROID */
         font-size: 0.4rem;
     }
 
-
-
-
-
     .acessNow_btn {
         font-size: 0.4rem;
         margin: 5px;
         padding: 1rem;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     body {
         font-size: 14px;
@@ -514,22 +406,15 @@ ANDROID */
         font-size: 1.3rem;
     }
 
-
-
-
-
     .buttonExpand {
         width: 100px;
         height: 50px;
         background-color: black;
-
-
         cursor: pointer;
         padding: 0.4rem;
         display: flex;
         flex-direction: column;
         margin: 0.5rem;
-
     }
 
     .buttonExpand:hover {
@@ -541,9 +426,6 @@ ANDROID */
         background-color: rgb(148, 105, 50);
         transition: 100ms;
     }
-
-
-
 
     .headerClass section {
         display: flex;
@@ -560,9 +442,7 @@ ANDROID */
         height: 5px;
         width: 40px;
         align-items: center;
-
         margin: auto;
-
     }
 
     .infoMain {
@@ -592,14 +472,7 @@ ANDROID */
     }
 }
 
-
-
-
-
 @media(min-width: 500px) {
-
-
-
     .logoTop {
         width: 70px;
         padding: 2rem;
@@ -609,22 +482,6 @@ ANDROID */
         margin: 1rem;
         padding: 1rem;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     .spaceJogabilidade {
         width: 400px;
@@ -639,31 +496,17 @@ ANDROID */
         margin: auto;
         padding: 0.5rem;
         margin-top: 2rem;
-
-
-
     }
 
     .textTeste2 {
         font-size: 0.8rem;
     }
 
-
-
     .paddingH3 {
-
         margin: auto;
         margin-top: 3rem;
-
-
-
         text-align: center;
-
-
-
-
     }
-
 
     body {
         font-size: 14px;
@@ -676,7 +519,6 @@ ANDROID */
     .subtitle {
         font-size: 1.3rem;
     }
-
 
     .textInBox span {
         font-size: 0.6rem;
@@ -691,8 +533,6 @@ ANDROID */
         width: 100px;
         height: 50px;
         background-color: black;
-
-
         cursor: pointer;
         padding: 0.4rem;
         display: flex;
@@ -710,12 +550,9 @@ ANDROID */
         transition: 100ms;
     }
 
-
     .mainRightBox {
         display: none;
-
     }
-
 
     .expanded {
         display: flex;
@@ -738,20 +575,13 @@ ANDROID */
         height: 5px;
         width: 40px;
         align-items: center;
-
         margin: auto;
-
     }
 
     .infoMain {
         font-size: 1rem;
     }
-
 }
-
-
-
-
 
 @media(min-width: 700px) {
     .spaceJogabilidade {
@@ -786,7 +616,6 @@ ANDROID */
         font-size: 1.5rem;
     }
 
-
     .textInBox span {
         font-size: 0.8rem;
     }
@@ -798,22 +627,15 @@ ANDROID */
         margin-top: 2rem;
     }
 
-
-
-
     .buttonExpand {
         width: 0px;
         height: 0px;
         display: none;
     }
 
-
-
     .mainRightBox {
         display: flex;
     }
-
-
 
     .headerClass section {
         display: flex;
@@ -823,18 +645,9 @@ ANDROID */
     .headerClass {
         flex-direction: row;
     }
-
-
-
-
-
-
-
-
 }
 
 @media(min-width: 800px) {
-
     .textInBox span {
         font-size: 1rem;
     }
@@ -842,11 +655,7 @@ ANDROID */
     .paddingH3 {
         margin-top: 5rem;
     }
-
 }
-
-
-
 
 @media(min-width: 1000px) {
     .spaceJogabilidade {
@@ -862,11 +671,7 @@ ANDROID */
     }
 }
 
-
-
-
 @media(min-width: 1400px) {
-
     body {
         font-size: 18px;
     }
@@ -888,11 +693,6 @@ ANDROID */
     }
 }
 
-
-
-
-
-
 @media(min-width: 1800px) {
     .spaceJogabilidade {
         width: 1500px;
@@ -901,18 +701,14 @@ ANDROID */
     .videoBackground {
         height: 90%;
     }
-
 }
 
 @media(min-width: 2200px) {
     .spaceJogabilidade {
         width: 2000px;
-
     }
 
     .videoBackground {
         height: 88%;
     }
-
-
 }

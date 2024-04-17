@@ -283,3 +283,12 @@ li{
         height: 400px;
     }
 }
+
+@media(min-width: 2200px) {
+    .carousel-container{
+        margin: 10rem;
+        margin-top: 2rem;  
+        margin-bottom: 2rem;  
+    }
+    
+}
